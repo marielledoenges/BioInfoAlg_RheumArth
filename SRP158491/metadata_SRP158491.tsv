@@ -1,0 +1,277 @@
+refinebio_accession_code	experiment_accession	refinebio_age	refinebio_cell_line	refinebio_compound	refinebio_developmental_stage	refinebio_disease	refinebio_disease_stage	refinebio_genetic_information	refinebio_organism	refinebio_platform	refinebio_processed	refinebio_processor_id	refinebio_processor_name	refinebio_processor_version	refinebio_race	refinebio_sex	refinebio_source_archive_url	refinebio_source_database	refinebio_specimen_part	refinebio_subject	refinebio_time	refinebio_title	refinebio_treatment
+SRR7725764	SRP158491	53.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd4 cell		HC1__CD4-Tcm cells	
+SRR7725765	SRP158491	53.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd4 cell		HC1__CD4-Tem cells	
+SRR7725767	SRP158491	53.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		HC1__CD8-Tcm cells	
+SRR7725768	SRP158491	53.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd8 cell		HC1__CD8-Tem cells	
+SRR7725770	SRP158491	53.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd8 cell		HC1__CD8-Tn cells	
+SRR7725772	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd4 cell		HC10__CD4-Tem cells	
+SRR7725773	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd4 cell		HC10__CD4-Tn cells	
+SRR7725774	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		HC10__CD8-Tcm cells	
+SRR7725775	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd8 cell		HC10__CD8-Tem cells	
+SRR7725776	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	temra cd8 cell		HC10__CD8-Temra cells	
+SRR7725777	SRP158491	63.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd8 cell		HC10__CD8-Tn cells	
+SRR7725778	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC2__CD4-Tcm cells	
+SRR7725779	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC2__CD4-Tem cells	
+SRR7725780	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC2__CD4-Tn cells	
+SRR7725782	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC2__CD8-Tem cells	
+SRR7725783	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC2__CD8-Tn cells	
+SRR7725784	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC3__CD4-Tcm cells	
+SRR7725785	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC3__CD4-Tem cells	
+SRR7725786	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC3__CD4-Tn cells	
+SRR7725787	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC3__CD8-Tcm cells	
+SRR7725788	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC3__CD8-Tem cells	
+SRR7725789	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC3__CD8-Temra cells	
+SRR7725790	SRP158491	49.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC3__CD8-Tn cells	
+SRR7725791	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC4__CD4-Tcm cells	
+SRR7725792	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC4__CD4-Tem cells	
+SRR7725793	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC4__CD4-Tn cells	
+SRR7725794	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC4__CD8-Tcm cells	
+SRR7725795	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC4__CD8-Tem cells	
+SRR7725796	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC4__CD8-Temra cells	
+SRR7725797	SRP158491	56.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC4__CD8-Tn cells	
+SRR7725799	SRP158491	45.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC5__CD4-Tem cells	
+SRR7725801	SRP158491	45.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC5__CD8-Tcm cells	
+SRR7725802	SRP158491	45.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC5__CD8-Tem cells	
+SRR7725803	SRP158491	45.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC5__CD8-Temra cells	
+SRR7725804	SRP158491	45.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC5__CD8-Tn cells	
+SRR7725805	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC6__CD4-Tcm cells	
+SRR7725806	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC6__CD4-Tem cells	
+SRR7725807	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC6__CD4-Tn cells	
+SRR7725808	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC6__CD8-Tcm cells	
+SRR7725809	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC6__CD8-Tem cells	
+SRR7725810	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC6__CD8-Temra cells	
+SRR7725811	SRP158491	55.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC6__CD8-Tn cells	
+SRR7725812	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC7__CD4-Tcm cells	
+SRR7725813	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC7__CD4-Tem cells	
+SRR7725814	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC7__CD4-Tn cells	
+SRR7725815	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC7__CD8-Tcm cells	
+SRR7725816	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC7__CD8-Tem cells	
+SRR7725817	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC7__CD8-Temra cells	
+SRR7725818	SRP158491	77.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC7__CD8-Tn cells	
+SRR7725819	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC8__CD4-Tcm cells	
+SRR7725820	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC8__CD4-Tem cells	
+SRR7725821	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC8__CD4-Tn cells	
+SRR7725822	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC8__CD8-Tcm cells	
+SRR7725823	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC8__CD8-Tem cells	
+SRR7725824	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC8__CD8-Temra cells	
+SRR7725825	SRP158491	74.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		HC8__CD8-Tn cells	
+SRR7725826	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		HC9__CD4-Tcm cells	
+SRR7725827	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		HC9__CD4-Tem cells	
+SRR7725828	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		HC9__CD4-Tn cells	
+SRR7725829	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		HC9__CD8-Tcm cells	
+SRR7725830	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		HC9__CD8-Tem cells	
+SRR7725831	SRP158491	72.000				healthy			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		HC9__CD8-Temra cells	
+SRR7725833	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated1__CD4-Tcm cells	
+SRR7725834	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated1__CD4-Tem cells	
+SRR7725835	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated1__CD8-Tcm cells	
+SRR7725836	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_IFX treated1__CD8-Tem cells	
+SRR7725837	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated1__CD8-Temra cells	
+SRR7725838	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated1__CD8-Tn cells	
+SRR7725841	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated10__CD4-Tn cells	
+SRR7725842	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated10__CD8-Tcm cells	
+SRR7725843	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_IFX treated10__CD8-Tem cells	
+SRR7725844	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated10__CD8-Temra cells	
+SRR7725845	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated10__CD8-Tn cells	
+SRR7725846	SRP158491	61.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated2__CD4-Tcm cells	
+SRR7725850	SRP158491	61.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated2__CD8-Temra cells	
+SRR7725851	SRP158491	61.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated2__CD8-Tn cells	
+SRR7725853	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated3__CD4-Tem cells	
+SRR7725854	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated3__CD4-Tn cells	
+SRR7725855	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated3__CD8-Tcm cells	
+SRR7725856	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_IFX treated3__CD8-Tem cells	
+SRR7725857	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated3__CD8-Temra cells	
+SRR7725858	SRP158491	55.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated3__CD8-Tn cells	
+SRR7725859	SRP158491	60.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated4__CD4-Tcm cells	
+SRR7725860	SRP158491	60.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated4__CD4-Tem cells	
+SRR7725861	SRP158491	60.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated4__CD4-Tn cells	
+SRR7725862	SRP158491	60.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated4__CD8-Tcm cells	
+SRR7725863	SRP158491	60.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated4__CD8-Tn cells	
+SRR7725864	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated5__CD4-Tcm cells	
+SRR7725865	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated5__CD4-Tem cells	
+SRR7725866	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated5__CD4-Tn cells	
+SRR7725867	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated5__CD8-Tcm cells	
+SRR7725869	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated5__CD8-Temra cells	
+SRR7725870	SRP158491	66.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated5__CD8-Tn cells	
+SRR7725872	SRP158491	44.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd4 cell		RA_IFX treated6__CD4-Tem cells	
+SRR7725874	SRP158491	44.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		RA_IFX treated6__CD8-Tcm cells	
+SRR7725875	SRP158491	44.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd8 cell		RA_IFX treated6__CD8-Tem cells	
+SRR7725876	SRP158491	44.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	temra cd8 cell		RA_IFX treated6__CD8-Temra cells	
+SRR7725877	SRP158491	44.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd8 cell		RA_IFX treated6__CD8-Tn cells	
+SRR7725878	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated7__CD4-Tcm cells	
+SRR7725879	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated7__CD4-Tem cells	
+SRR7725880	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated7__CD4-Tn cells	
+SRR7725881	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated7__CD8-Tcm cells	
+SRR7725882	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated7__CD8-Temra cells	
+SRR7725883	SRP158491	65.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated7__CD8-Tn cells	
+SRR7725884	SRP158491	53.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated8__CD4-Tcm cells	
+SRR7725885	SRP158491	53.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated8__CD4-Tem cells	
+SRR7725886	SRP158491	53.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated8__CD4-Tn cells	
+SRR7725888	SRP158491	53.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_IFX treated8__CD8-Tem cells	
+SRR7725889	SRP158491	53.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated8__CD8-Temra cells	
+SRR7725891	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_IFX treated9__CD4-Tcm cells	
+SRR7725892	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_IFX treated9__CD4-Tem cells	
+SRR7725893	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_IFX treated9__CD4-Tn cells	
+SRR7725894	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_IFX treated9__CD8-Tcm cells	
+SRR7725895	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_IFX treated9__CD8-Tem cells	
+SRR7725896	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_IFX treated9__CD8-Temra cells	
+SRR7725897	SRP158491	56.000				ra ifx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_IFX treated9__CD8-Tn cells	
+SRR7725898	SRP158491	65.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated1__CD4-Tcm cells	
+SRR7725899	SRP158491	65.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated1__CD4-Tn cells	
+SRR7725900	SRP158491	65.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_MTX treated1__CD8-Tcm cells	
+SRR7725901	SRP158491	65.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_MTX treated1__CD8-Tn cells	
+SRR7725902	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated10__CD4-Tcm cells	
+SRR7725903	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated10__CD4-Tem cells	
+SRR7725904	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated10__CD4-Tn cells	
+SRR7725905	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated10__CD8-Tem cells	
+SRR7725906	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_MTX treated10__CD8-Temra cells	
+SRR7725907	SRP158491	43.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_MTX treated10__CD8-Tn cells	
+SRR7725908	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated2__CD4-Tcm cells	
+SRR7725909	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated2__CD4-Tem cells	
+SRR7725911	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_MTX treated2__CD8-Tcm cells	
+SRR7725912	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated2__CD8-Tem cells	
+SRR7725913	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_MTX treated2__CD8-Temra cells	
+SRR7725914	SRP158491	42.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_MTX treated2__CD8-Tn cells	
+SRR7725915	SRP158491	76.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated3__CD4-Tcm cells	
+SRR7725916	SRP158491	76.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated3__CD4-Tem cells	
+SRR7725918	SRP158491	76.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated3__CD8-Tem cells	
+SRR7725919	SRP158491	76.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_MTX treated3__CD8-Temra cells	
+SRR7725920	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated4__CD4-Tcm cells	
+SRR7725921	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated4__CD4-Tem cells	
+SRR7725922	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated4__CD4-Tn cells	
+SRR7725923	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_MTX treated4__CD8-Tcm cells	
+SRR7725924	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated4__CD8-Tem cells	
+SRR7725925	SRP158491	28.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_MTX treated4__CD8-Tn cells	
+SRR7725926	SRP158491	55.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated5__CD4-Tcm cells	
+SRR7725927	SRP158491	55.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated5__CD4-Tem cells	
+SRR7725929	SRP158491	55.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated5__CD8-Tem cells	
+SRR7725931	SRP158491	69.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated6__CD4-Tcm cells	
+SRR7725932	SRP158491	69.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated6__CD4-Tem cells	
+SRR7725933	SRP158491	69.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated6__CD4-Tn cells	
+SRR7725936	SRP158491	69.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_MTX treated6__CD8-Temra cells	
+SRR7725937	SRP158491	69.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_MTX treated6__CD8-Tn cells	
+SRR7725938	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_MTX treated7__CD4-Tcm cells	
+SRR7725939	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated7__CD4-Tem cells	
+SRR7725940	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated7__CD4-Tn cells	
+SRR7725941	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_MTX treated7__CD8-Tcm cells	
+SRR7725942	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated7__CD8-Tem cells	
+SRR7725943	SRP158491	70.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_MTX treated7__CD8-Temra cells	
+SRR7725944	SRP158491	60.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd4 cell		RA_MTX treated8__CD4-Tcm cells	
+SRR7725946	SRP158491	60.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd4 cell		RA_MTX treated8__CD4-Tn cells	
+SRR7725947	SRP158491	60.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		RA_MTX treated8__CD8-Tcm cells	
+SRR7725948	SRP158491	60.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd8 cell		RA_MTX treated8__CD8-Tem cells	
+SRR7725949	SRP158491	60.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	temra cd8 cell		RA_MTX treated8__CD8-Temra cells	
+SRR7725952	SRP158491	47.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_MTX treated9__CD4-Tem cells	
+SRR7725953	SRP158491	47.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_MTX treated9__CD4-Tn cells	
+SRR7725955	SRP158491	47.000				ra mtx treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_MTX treated9__CD8-Tem cells	
+SRR7725958	SRP158491	46.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated1__CD4-Tcm cells	
+SRR7725959	SRP158491	46.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated1__CD4-Tem cells	
+SRR7725961	SRP158491	46.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated1__CD8-Tem cells	
+SRR7725962	SRP158491	46.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated1__CD8-Temra cells	
+SRR7725963	SRP158491	46.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated1__CD8-Tn cells	
+SRR7725964	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated10__CD4-Tcm cells	
+SRR7725965	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated10__CD4-Tem cells	
+SRR7725966	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated10__CD4-Tn cells	
+SRR7725967	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_non treated10__CD8-Tcm cells	
+SRR7725968	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated10__CD8-Tem cells	
+SRR7725969	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated10__CD8-Temra cells	
+SRR7725970	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated10__CD8-Tn cells	
+SRR7725971	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated2__CD4-Tcm cells	
+SRR7725972	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated2__CD4-Tem cells	
+SRR7725973	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated2__CD4-Tn cells	
+SRR7725974	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_non treated2__CD8-Tcm cells	
+SRR7725975	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated2__CD8-Tem cells	
+SRR7725976	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated2__CD8-Temra cells	
+SRR7725977	SRP158491	68.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated2__CD8-Tn cells	
+SRR7725978	SRP158491	65.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated3__CD4-Tcm cells	
+SRR7725979	SRP158491	65.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated3__CD4-Tem cells	
+SRR7725980	SRP158491	65.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated3__CD4-Tn cells	
+SRR7725981	SRP158491	65.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated3__CD8-Temra cells	
+SRR7725982	SRP158491	65.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated3__CD8-Tn cells	
+SRR7725983	SRP158491	88.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated4__CD4-Tcm cells	
+SRR7725984	SRP158491	88.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated4__CD4-Tn cells	
+SRR7725985	SRP158491	88.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_non treated4__CD8-Tcm cells	
+SRR7725986	SRP158491	88.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated4__CD8-Tem cells	
+SRR7725989	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated5__CD4-Tcm cells	
+SRR7725990	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated5__CD4-Tem cells	
+SRR7725991	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated5__CD4-Tn cells	
+SRR7725992	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_non treated5__CD8-Tcm cells	
+SRR7725993	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated5__CD8-Tem cells	
+SRR7725994	SRP158491	49.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated5__CD8-Tn cells	
+SRR7725995	SRP158491	60.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated6__CD4-Tcm cells	
+SRR7725996	SRP158491	60.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated6__CD4-Tem cells	
+SRR7725997	SRP158491	60.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_non treated6__CD4-Tn cells	
+SRR7726000	SRP158491	60.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated6__CD8-Temra cells	
+SRR7726001	SRP158491	60.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated6__CD8-Tn cells	
+SRR7726002	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd4 cell		RA_non treated7__CD4-Tcm cells	
+SRR7726003	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd4 cell		RA_non treated7__CD4-Tem cells	
+SRR7726004	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd4 cell		RA_non treated7__CD4-Tn cells	
+SRR7726005	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		RA_non treated7__CD8-Tcm cells	
+SRR7726006	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	temra cd8 cell		RA_non treated7__CD8-Temra cells	
+SRR7726007	SRP158491	47.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd8 cell		RA_non treated7__CD8-Tn cells	
+SRR7726008	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_non treated8__CD4-Tcm cells	
+SRR7726009	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_non treated8__CD4-Tem cells	
+SRR7726011	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_non treated8__CD8-Tcm cells	
+SRR7726012	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_non treated8__CD8-Tem cells	
+SRR7726013	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_non treated8__CD8-Temra cells	
+SRR7726014	SRP158491	56.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_non treated8__CD8-Tn cells	
+SRR7726015	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd4 cell		RA_non treated9__CD4-Tcm cells	
+SRR7726017	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd4 cell		RA_non treated9__CD4-Tn cells	
+SRR7726018	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tcm cd8 cell		RA_non treated9__CD8-Tcm cells	
+SRR7726019	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tem cd8 cell		RA_non treated9__CD8-Tem cells	
+SRR7726020	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	temra cd8 cell		RA_non treated9__CD8-Temra cells	
+SRR7726021	SRP158491	48.000				ra non treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	blood	tn cd8 cell		RA_non treated9__CD8-Tn cells	
+SRR7726022	SRP158491	71.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tcm cd4 cell		RA_SF1__CD4-Tcm cells	
+SRR7726023	SRP158491	71.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tem cd4 cell		RA_SF1__CD4-Tem cells	
+SRR7726024	SRP158491	71.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tcm cd8 cell		RA_SF1__CD8-Tcm cells	
+SRR7726026	SRP158491	71.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	temra cd8 cell		RA_SF1__CD8-Temra cells	
+SRR7726027	SRP158491	67.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tcm cd4 cell		RA_SF2__CD4-Tcm cells	
+SRR7726028	SRP158491	67.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tem cd4 cell		RA_SF2__CD4-Tem cells	
+SRR7726030	SRP158491	27.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		male		SRA	synovial fluid	tcm cd8 cell		RA_SF3__CD8-Tcm cells	
+SRR7726031	SRP158491	42.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tcm cd4 cell		RA_SF4__CD4-Tcm cells	
+SRR7726032	SRP158491	42.000				ra synovial fluid			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	synovial fluid	tem cd4 cell		RA_SF4__CD4-Tem cells	
+SRR7726033	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated1__CD4-Tcm cells	
+SRR7726034	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated1__CD4-Tem cells	
+SRR7726035	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_TCZ treated1__CD4-Tn cells	
+SRR7726036	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated1__CD8-Tcm cells	
+SRR7726037	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_TCZ treated1__CD8-Tem cells	
+SRR7726038	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_TCZ treated1__CD8-Temra cells	
+SRR7726039	SRP158491	66.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated1__CD8-Tn cells	
+SRR7726040	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated10__CD4-Tcm cells	
+SRR7726041	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated10__CD4-Tem cells	
+SRR7726043	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated10__CD8-Tcm cells	
+SRR7726044	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_TCZ treated10__CD8-Tem cells	
+SRR7726046	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated10__CD8-Tn cells	
+SRR7726048	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated2__CD4-Tem cells	
+SRR7726050	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated2__CD8-Tcm cells	
+SRR7726052	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_TCZ treated2__CD8-Temra cells	
+SRR7726053	SRP158491	58.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated2__CD8-Tn cells	
+SRR7726054	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated3__CD4-Tcm cells	
+SRR7726055	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated3__CD4-Tem cells	
+SRR7726056	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_TCZ treated3__CD4-Tn cells	
+SRR7726057	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated3__CD8-Tcm cells	
+SRR7726058	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_TCZ treated3__CD8-Tem cells	
+SRR7726059	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_TCZ treated3__CD8-Temra cells	
+SRR7726060	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated3__CD8-Tn cells	
+SRR7726061	SRP158491	44.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated4__CD4-Tcm cells	
+SRR7726063	SRP158491	44.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_TCZ treated4__CD4-Tn cells	
+SRR7726064	SRP158491	44.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated4__CD8-Tcm cells	
+SRR7726066	SRP158491	44.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_TCZ treated4__CD8-Temra cells	
+SRR7726067	SRP158491	44.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated4__CD8-Tn cells	
+SRR7726068	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated5__CD4-Tcm cells	
+SRR7726069	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated5__CD4-Tem cells	
+SRR7726071	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated5__CD8-Tcm cells	
+SRR7726074	SRP158491	63.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated5__CD8-Tn cells	
+SRR7726075	SRP158491	53.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated6__CD4-Tcm cells	
+SRR7726077	SRP158491	53.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_TCZ treated6__CD4-Tn cells	
+SRR7726078	SRP158491	53.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated6__CD8-Tcm cells	
+SRR7726081	SRP158491	53.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated6__CD8-Tn cells	
+SRR7726082	SRP158491	73.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd4 cell		RA_TCZ treated7__CD4-Tcm cells	
+SRR7726083	SRP158491	73.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated7__CD4-Tem cells	
+SRR7726089	SRP158491	48.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated8__CD4-Tem cells	
+SRR7726092	SRP158491	48.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated8__CD8-Tn cells	
+SRR7726094	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd4 cell		RA_TCZ treated9__CD4-Tem cells	
+SRR7726095	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd4 cell		RA_TCZ treated9__CD4-Tn cells	
+SRR7726096	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tcm cd8 cell		RA_TCZ treated9__CD8-Tcm cells	
+SRR7726097	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tem cd8 cell		RA_TCZ treated9__CD8-Tem cells	
+SRR7726098	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	temra cd8 cell		RA_TCZ treated9__CD8-Temra cells	
+SRR7726099	SRP158491	68.000				ra tcz treatment			HOMO_SAPIENS	Ion Torrent Proton (IonTorrentProton)	True	387	Tximport	v1.26.0-hotfix		female		SRA	blood	tn cd8 cell		RA_TCZ treated9__CD8-Tn cells	
