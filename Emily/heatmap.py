@@ -22,18 +22,15 @@ healthy_columns = healthy_rows['refinebio_accession_code'].tolist()
 unhealthy_columns = unhealthy_rows['refinebio_accession_code'].tolist()
 
 # Subset the gene expression data for healthy and unhealthy samples
-healthy_gene_expression = df[['Gene'] + healthy_columns]  # Keep gene column for reference
+healthy_gene_expression = df[['Gene'] + healthy_columns]
 unhealthy_gene_expression = df[['Gene'] + unhealthy_columns]
 
 # Step 1: Filter for significant genes
 significant_genes = de_results[(de_results['PValue'] < 0.05) & (abs(de_results['Log2FoldChange']) > 0.5)]
 print(f"Number of significantly differentially expressed genes: {len(significant_genes)}")
 
-# Step 2: Extract the list of significant gene names
 significant_gene_list = significant_genes['Gene'].tolist()
 
-# Step 3: Extract the expression data for those genes from healthy and unhealthy datasets
-# Assuming 'healthy_gene_expression' and 'unhealthy_gene_expression' are preloaded
 significant_healthy_expression = healthy_gene_expression[healthy_gene_expression['Gene'].isin(significant_gene_list)]
 significant_unhealthy_expression = unhealthy_gene_expression[unhealthy_gene_expression['Gene'].isin(significant_gene_list)]
 
@@ -41,7 +38,6 @@ significant_unhealthy_expression = unhealthy_gene_expression[unhealthy_gene_expr
 combined_expression = pd.concat([significant_healthy_expression.set_index('Gene'), 
                                  significant_unhealthy_expression.set_index('Gene')], axis=1)
 
-# Step 4: Generate the heatmap using seaborn
 plt.figure(figsize=(12, 8))
 sns.heatmap(combined_expression, cmap='vlag', linewidths=0.5)
 plt.title('Heatmap of Significantly Differentially Expressed Genes')

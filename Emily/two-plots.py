@@ -8,8 +8,7 @@ from scipy.stats import ttest_ind
 # Load the data into a DataFrame (adjust the file paths if needed)
 df = pd.read_csv("SRP158491_converted.tsv", sep='\t')
 
-#df = df.dropna(subset=['Gene'])
-df = df.drop_duplicates(subset='Gene', keep='first')
+
 
 nan_genes_before = df['Gene'].isna().sum()
 total_genes_before = len(df['Gene'])
