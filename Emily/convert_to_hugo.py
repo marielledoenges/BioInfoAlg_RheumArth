@@ -4,7 +4,7 @@ import mygene as mygene
 import matplotlib.pyplot as plt
 
 
-# Load the TSV file into a DataFrame
+# Loading the TSV file into a DataFrame
 df = pd.read_csv("SRP158491/SRP158491.tsv", sep='\t')
 
 df = df.dropna(subset=['Gene'])
