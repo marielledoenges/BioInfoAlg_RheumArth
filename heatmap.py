@@ -26,7 +26,7 @@ healthy_gene_expression = df[['Gene'] + healthy_columns]  # Keep gene column for
 unhealthy_gene_expression = df[['Gene'] + unhealthy_columns]
 
 # Step 1: Filter for significant genes
-significant_genes = de_results[(de_results['PValue'] < 0.05) & (abs(de_results['Log2FoldChange']) > 1)]
+significant_genes = de_results[(de_results['PValue'] < 0.05) & (abs(de_results['Log2FoldChange']) > 0.5)]
 print(f"Number of significantly differentially expressed genes: {len(significant_genes)}")
 
 # Step 2: Extract the list of significant gene names
