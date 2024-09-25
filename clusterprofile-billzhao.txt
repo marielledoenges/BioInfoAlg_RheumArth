@@ -1,0 +1,208 @@
+
+R version 4.4.1 (2024-06-14 ucrt) -- "Race for Your Life"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> library(clusterProfiler)
+
+clusterProfiler v4.12.6 Learn more at https://yulab-smu.top/contribution-knowledge-mining/
+
+Please cite:
+
+Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He.
+clusterProfiler: an R package for comparing biological themes among
+gene clusters. OMICS: A Journal of Integrative Biology. 2012,
+16(5):284-287
+
+Attaching package: ‘clusterProfiler’
+
+The following object is masked from ‘package:stats’:
+
+    filter
+
+> library(org.Hs.eg.db)
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, table,
+    tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:clusterProfiler’:
+
+    rename
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+Attaching package: ‘IRanges’
+
+The following object is masked from ‘package:clusterProfiler’:
+
+    slice
+
+The following object is masked from ‘package:grDevices’:
+
+    windows
+
+
+Attaching package: ‘AnnotationDbi’
+
+The following object is masked from ‘package:clusterProfiler’:
+
+    select
+
+
+> gene_summary = read.csv("C:/Users/aquat/OneDrive/Documents/GitHub/BioInfoAlg_RheumArth/most_significant.csv")
+> gene_list <- gene_summary$log2FoldChange
+> gene_symbols <- gene_summary$Gene
+> gene_entrez <- bitr(gene_symbols, fromType = "Symbol", toType = "ENTREZID", OrgDb = org.Hs.eg.db)
+Error in bitr(gene_symbols, fromType = "Symbol", toType = "ENTREZID",  : 
+  'fromType' should be one of ACCNUM, ALIAS, ENSEMBL, ENSEMBLPROT, ENSEMBLTRANS, ENTREZID, ENZYME, EVIDENCE, EVIDENCEALL, GENENAME, GENETYPE, GO, GOALL, IPI, MAP, OMIM, ONTOLOGY, ONTOLOGYALL, PATH, PFAM, PMID, PROSITE, REFSEQ, SYMBOL, UCSCKG, UNIPROT.
+> gene_entrez <- bitr(gene_symbols, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db)
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(gene_symbols, fromType = "SYMBOL", toType = "ENTREZID",  :
+  0.09% of input gene IDs are fail to map...
+> names(gene_list) <- gene_entrez$ENTREZID
+> gene_list <- sort(gene_list, decreasing=TRUE)
+> gene_list <- gene_list[!duplicated(names(gene_list))]
+> length(gene_list)
+[1] 22786
+> gsea_go <- gseGO(geneList = gene_list, OrgDb = org.Hs.eg.db, ont = "BP",
++ + minGSSize = 10, maxGSSize = 500, pvalueCutoff = 0.05, verbose=FALSE)
+Error: unexpected '=' in:
+"gsea_go <- gseGO(geneList = gene_list, OrgDb = org.Hs.eg.db, ont = "BP",
++ minGSSize ="
+> gsea_go <- gseGO(geneList = gene_list, OrgDb = org.Hs.eg.db, ont = "BP",
++ minGSSize = 10, maxGSSize = 500, pvalueCutoff = 0.05, verbose=FALSE)
+Warning message:
+In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (7.79% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+> head(gsea_go)
+                   ID                                            Description
+GO:0070493 GO:0070493          thrombin-activated receptor signaling pathway
+GO:0010919 GO:0010919  regulation of inositol phosphate biosynthetic process
+GO:0030836 GO:0030836 positive regulation of actin filament depolymerization
+GO:1902931 GO:1902931    negative regulation of alcohol biosynthetic process
+           setSize enrichmentScore       NES       pvalue    p.adjust
+GO:0070493      13      -0.9112611 -2.458515 1.004740e-06 0.003867003
+GO:0010919      15      -0.8970706 -2.455766 1.250850e-06 0.003867003
+GO:0030836      13      -0.8814158 -2.377994 3.291761e-06 0.006784320
+GO:1902931      14      -0.9398095 -2.553940 9.729880e-06 0.015039962
+                qvalue rank                  leading_edge core_enrichment
+GO:0070493 0.003810485    2 tags=15%, list=0%, signal=15%       3248/5341
+GO:0010919 0.003810485    2 tags=13%, list=0%, signal=13%       6622/5341
+GO:0030836 0.006685163    2 tags=15%, list=0%, signal=15%     253725/5341
+GO:1902931 0.014820143    2 tags=14%, list=0%, signal=14%       4790/5341
+> gene_summary = read.csv("C:/Users/aquat/OneDrive/Documents/GitHub/BioInfoAlg_RheumArth/most_significant.csv")
+> gene_list <- gene_summary$log2FoldChange
+> gene_symbols <- gene_summary$Gene
+> gene_entrez <- bitr(gene_symbols, fromType = "Symbol", toType = "ENTREZID", OrgDb = org.Hs.eg.db)
+Error in bitr(gene_symbols, fromType = "Symbol", toType = "ENTREZID",  : 
+  'fromType' should be one of ACCNUM, ALIAS, ENSEMBL, ENSEMBLPROT, ENSEMBLTRANS, ENTREZID, ENZYME, EVIDENCE, EVIDENCEALL, GENENAME, GENETYPE, GO, GOALL, IPI, MAP, OMIM, ONTOLOGY, ONTOLOGYALL, PATH, PFAM, PMID, PROSITE, REFSEQ, SYMBOL, UCSCKG, UNIPROT.
+> gene_entrez <- bitr(gene_symbols, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db)
+'select()' returned 1:many mapping between keys and columns
+Warning message:
+In bitr(gene_symbols, fromType = "SYMBOL", toType = "ENTREZID",  :
+  0.07% of input gene IDs are fail to map...
+> names(gene_list) <- gene_entrez$ENTREZID
+> gene_list <- sort(gene_list, decreasing=TRUE)
+> gene_list <- gene_list[!duplicated(names(gene_list))]
+> length(gene_list)
+[1] 21653
+> gsea_go <- gseGO(geneList = gene_list, OrgDb = org.Hs.eg.db, ont = "BP",
++ minGSSize = 10, maxGSSize = 500, pvalueCutoff = 0.05, verbose=FALSE)
+Warning message:
+In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  There are ties in the preranked stats (14.26% of the list).
+The order of those tied genes will be arbitrary, which may produce unexpected results.
+> head(gsea_go)
+                   ID
+GO:0035924 GO:0035924
+GO:0038084 GO:0038084
+GO:0043536 GO:0043536
+GO:0010595 GO:0010595
+GO:0048010 GO:0048010
+GO:0097529 GO:0097529
+                                                                Description
+GO:0035924 cellular response to vascular endothelial growth factor stimulus
+GO:0038084             vascular endothelial growth factor signaling pathway
+GO:0043536   positive regulation of blood vessel endothelial cell migration
+GO:0010595                positive regulation of endothelial cell migration
+GO:0048010    vascular endothelial growth factor receptor signaling pathway
+GO:0097529                                      myeloid leukocyte migration
+           setSize enrichmentScore       NES       pvalue     p.adjust
+GO:0035924      61      -0.7705728 -2.327384 8.444344e-09 5.163716e-05
+GO:0038084      43      -0.7898996 -2.255355 5.190160e-07 1.586891e-03
+GO:0043536      54      -0.7323335 -2.168813 4.604187e-06 7.771570e-03
+GO:0010595     101      -0.6233554 -2.034093 5.083611e-06 7.771570e-03
+GO:0048010      53      -0.7072450 -2.093873 1.083039e-05 1.103797e-02
+GO:0097529     214      -0.5106723 -1.820593 1.016430e-05 1.103797e-02
+                 qvalue rank                   leading_edge
+GO:0035924 5.036384e-05  866  tags=20%, list=4%, signal=19%
+GO:0038084 1.547760e-03  866  tags=21%, list=4%, signal=20%
+GO:0043536 7.579931e-03  268  tags=11%, list=1%, signal=11%
+GO:0010595 7.579931e-03  595  tags=12%, list=3%, signal=12%
+GO:0048010 1.076579e-02  595  tags=11%, list=3%, signal=11%
+GO:0097529 1.076579e-02 2936 tags=22%, list=14%, signal=20%
+                                                                                                                                                                                                                                                          core_enrichment
+GO:0035924                                                                                                                                                                                                    2322/3592/2324/9270/8828/10253/207/7422/7412/2321/7424/3791
+GO:0038084                                                                                                                                                                                                                  2322/3592/2324/8828/10253/7422/2321/7424/3791
+GO:0043536                                                                                                                                                                                                                                   7057/207/7422/7424/3791/4846
+GO:0010595                                                                                                                                                                                                  23328/2324/54453/84913/7057/9270/8828/207/7422/7424/3791/4846
+GO:0048010                                                                                                                                                                                                                                  2324/2254/7422/2321/7424/3791
+GO:0097529 7857/6361/2683/5734/10563/5473/728/2813/2526/10451/23604/5142/11314/1906/1843/51561/6504/5196/58515/80310/7499/23521/23236/5295/3605/6373/10059/1113/26585/64805/2920/3071/4067/6375/1908/6367/2358/7057/6364/6347/146433/4920/7422/1525/79902/2321/30817/7424
+> 
+> write.csv("C:/Users/aquat/OneDrive/Documents/GitHub/BioInfoAlg_RheumArth/enrichment.csv")
+"","x"
+"1","C:/Users/aquat/OneDrive/Documents/GitHub/BioInfoAlg_RheumArth/enrichment.csv"
+> write.csv(gsea_go, "C:/Users/aquat/OneDrive/Documents/GitHub/BioInfoAlg_RheumArth/enrichment.csv")
+> 
