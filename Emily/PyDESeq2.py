@@ -4,7 +4,7 @@ from pydeseq2.ds import DeseqStats
 from pydeseq2.default_inference import DefaultInference
 import gseapy as gp
 
-# Load your gene expression count data and metadata
+# Loading gene expression count data and metadata
 metadata_df = pd.read_csv('SRP158491/metadata_SRP158491.tsv', sep='\t')
 df = pd.read_csv('SRP158491_converted.tsv', sep='\t')
 
@@ -30,6 +30,7 @@ deseq_df.transpose()
 metadata_df.set_index('refinebio_accession_code', inplace=True)
 metadata_df
 
+#Using DeSeq2 to get differential expression data
 inference = DefaultInference(n_cpus=4)
 dds = DeseqDataSet(
     counts=deseq_df.transpose().loc[metadata_df.index],
@@ -59,6 +60,7 @@ significant_genes = significant_genes_df.index.tolist()
 
 significant_genes_df.to_csv('significant_genes.csv')
 
+#Ranking data based on Log2FoldChange
 rnk = results[['log2FoldChange']].copy()
 rnk = rnk.dropna()
 rnk = rnk[~rnk.index.duplicated(keep='first')]
@@ -70,7 +72,7 @@ rnk.to_csv('gene_rankings.rnk', sep='\t', index=False, header=False)
 rnk_list = rnk.set_index('Gene')['log2FoldChange']
 gene_sets = 'GO_Biological_Process_2023'
 
-# Perform GSEA preranked analysis
+# Performing GSEA preranked analysis
 pre_res = gp.prerank(
     rnk=rnk_list,
     gene_sets=gene_sets,
@@ -81,9 +83,7 @@ pre_res = gp.prerank(
     seed=6
 )
 
-# View the top enriched gene sets
 print("Top enriched gene sets:")
 print(pre_res.res2d.head())
 
-# Save results to a CSV file
 pre_res.res2d.to_csv('gsea_prerank_results.csv', index=False)
