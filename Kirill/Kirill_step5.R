@@ -1,59 +1,51 @@
 # Install and load required libraries if not already installed
 if (!requireNamespace("BiocManager", quietly = TRUE)) install.packages("BiocManager")
 
-# Install GenomicSuperSignature if needed
-if (!requireNamespace("GenomicSuperSignature", quietly = TRUE)) {
-  BiocManager::install("GenomicSuperSignature")
+# Install clusterProfiler for Gene Ontology Enrichment
+if (!requireNamespace("clusterProfiler", quietly = TRUE)) {
+  BiocManager::install("clusterProfiler")
 }
-# Install bcellViper package if needed (required for demo data)
-if (!requireNamespace("bcellViper", quietly = TRUE)) {
-  BiocManager::install("bcellViper")
+
+# Install org.Hs.eg.db for human gene annotations
+if (!requireNamespace("org.Hs.eg.db", quietly = TRUE)) {
+  BiocManager::install("org.Hs.eg.db")
 }
 
 # Load libraries
-library(GenomicSuperSignature)
-library(bcellViper)
+library(clusterProfiler)
+library(org.Hs.eg.db)
 
-# Step 1: Download and load the pre-trained PLIERpriors model
-RAVmodel <- getModel("PLIERpriors", load = TRUE)
-print(RAVmodel)
-
-# Step 2: Load your gene expression data
+# Step 1: Load your gene expression data
 new_data <- read.csv("all_genes.csv", header = TRUE)
-head(new_data)
 
-# Filter genes with adjusted p-value < 0.05
+# Step 2: Filter genes with adjusted p-value < 0.05
 significant_genes <- subset(new_data, padj < 0.05)
-nrow(significant_genes)
-head(significant_genes)
 
-# Extract the list of significant gene names
+# Extract the list of significant gene names (assuming 'Gene' column has gene symbols)
 gene_list <- significant_genes$Gene
-head(gene_list)
 
-# Step 3: Perform validation on your dataset using the pre-trained model
-# Use 'validate()' function to validate your data against the RAV model
-# Here, for demonstration, the dset is used, replace it with your data as needed.
-data(bcellViper)
-val_all <- validate(dset, RAVmodel)
-head(val_all)
+# Step 3: Convert gene symbols to Entrez IDs (required for clusterProfiler)
+# This uses the org.Hs.eg.db package to map gene symbols to Entrez IDs
+entrez_ids <- bitr(gene_list, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db)
 
-# Step 4: Visualize the validation results
-heatmapTable(val_all, RAVmodel, num.out = 5, swCutoff = 0)
+# Step 4: Run GO Enrichment Analysis using clusterProfiler, focusing on Molecular Function (MF)
+go_enrichment <- enrichGO(gene = entrez_ids$ENTREZID, 
+                          OrgDb = org.Hs.eg.db, 
+                          keyType = "ENTREZID", 
+                          ont = "CC",       # Use "MF" for Molecular Function ontology
+                          pAdjustMethod = "BH", 
+                          pvalueCutoff = 0.2, 
+                          readable = TRUE)    # Convert Entrez IDs back to gene symbols
 
-# Step 5: Plot the validation results
-plotValidate(val_all, interactive = FALSE)
+# Step 5: View the top enriched GO terms
+head(go_enrichment)
 
-# Step 6: Explore validated signatures and pathways
-validated_ind <- validatedSignatures(val_all, RAVmodel, num.out = 3, swCutoff = 0, indexOnly = TRUE)
-validated_ind
+# Step 6: Save the GO enrichment results to a CSV file
+write.csv(as.data.frame(go_enrichment), "go_enrichment_molecular_function.csv", row.names = FALSE)
 
-# Optional: Draw word clouds of the top signatures
-drawWordcloud(RAVmodel, validated_ind[1])
-drawWordcloud(RAVmodel, validated_ind[2])
+# Step 7: Visualize the enrichment results (optional)
+# Bar plot of the top enriched GO terms
+barplot(go_enrichment, showCategory = 10, title = "Top 10 Enriched GO Terms (Molecular Function)")
 
-# Step 7: Annotate the top enriched pathways
-annotateRAV(RAVmodel, validated_ind[2])
-
-# Step 8: Subset and display enriched pathways
-subsetEnrichedPathways(RAVmodel, validated_ind[2], include_nes = TRUE)
+# Dot plot of the GO terms
+dotplot(go_enrichment, showCategory = 10, title = "Top 10 Enriched GO Terms (Molecular Function)")
