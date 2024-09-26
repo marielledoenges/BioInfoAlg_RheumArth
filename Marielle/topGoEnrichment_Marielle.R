@@ -9,41 +9,37 @@ library(org.Hs.eg.db)
 # Load the CSV file
 significant_genes <- read.delim("all_genes.csv")
 
-# Assuming your CSV has two columns: 'Gene' and 'p_value'
-head(significant_genes)  # Inspect the first few rows of your data
+head(significant_genes)  # check out first few rows
 
-# Prepare the gene list: a named vector of p-values
+# create the gene vector of p-values with names attached
 geneList <- significant_genes$pvalue
 names(geneList) <- significant_genes$Gene
 
-# Convert p-values into a binary factor indicating significance (e.g., threshold at 0.05)
+# Convert p-values into a binary factor to show significance
 geneFactor <- factor(as.integer(geneList < 0.05))
 levels(geneFactor)
 names(geneFactor) <- names(geneList)
 
-# Create the topGOdata object
+# Create the topGO data object
 GOdata <- new("topGOdata",
-              ontology = "BP",  # You can choose "MF" or "CC" based on your focus
+              ontology = "BP", 
               allGenes = geneFactor,
-              annot = annFUN.org,  # Annotation function using the org package
-              mapping = "org.Hs.eg.db",  # Adjust if using a different species
-              ID = "symbol")  # Use gene symbols as IDs (adjust as needed)
-# Run Fisher's exact test for enrichment analysis
+              annot = annFUN.org,  
+              mapping = "org.Hs.eg.db", 
+              ID = "symbol")  # Use gene symbols as IDs
+
+# Run Fisher's exact test for the actual enrichment analysis
 resultFisher <- runTest(GOdata, algorithm = "classic", statistic = "fisher")
 
 # Get the top significant GO terms
 topGOres <- GenTable(GOdata, 
                      classicFisher = resultFisher, 
                      orderBy = "classicFisher", 
-                     topNodes = 10)  # Adjust topNodes for more/less results
+                     topNodes = 10)  # keeping top 10
 
-# Print the results
+# Print the results just to check
 print(topGOres)
 
 # Save the results to a CSV file
 write.csv(topGOres, "GSEA_topGO_results.csv")
-
-# Optional: Visualize the most significant GO terms
-showSigOfNodes(GOdata, score(resultFisher), firstSigNodes = 5, useInfo = 'all')
-
 
