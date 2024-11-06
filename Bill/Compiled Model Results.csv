@@ -1,0 +1,43 @@
+,Group,Group,Group,Group,Group,Group,Group,Agglomerative,Agglomerative,Agglomerative,Agglomerative,Agglomerative,Agglomerative,Agglomerative,Spectral,Spectral,Spectral,Spectral,Spectral,Spectral,Spectral,GMM,GMM,GMM,GMM,GMM,GMM,GMM,KMedoids,KMedoids,KMedoids,KMedoids,KMedoids,KMedoids,KMedoids,KMeans,KMeans,KMeans,KMeans,KMeans,KMeans,KMeans
+,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct,Actual,Random Forest,Support Vector Machine,Naive Bayes,K-Nearest Neighbors,Logistic Regression,Number Correct
+refinebio_accession_code,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SRR7725775,healthy,healthy,healthy,healthy,healthy,healthy,5,4,4,4,0,4,4,4,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,3,3,3,5
+SRR7725785,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,4,1,4,4,1,4,3
+SRR7725983,ra non treatment,ra non treatment,ra non treatment,ra non treatment,healthy,ra non treatment,4,0,0,0,0,0,0,5,0,0,0,0,0,0,5,1,1,1,1,1,1,5,1,1,1,0,1,1,4,4,4,4,4,4,4,5
+SRR7725993,ra non treatment,healthy,ra non treatment,healthy,healthy,ra non treatment,2,4,0,0,0,0,0,0,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,4,3,3,4
+SRR7726021,ra non treatment,ra non treatment,ra non treatment,ra non treatment,healthy,ra non treatment,4,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7725801,healthy,healthy,healthy,healthy,ra non treatment,healthy,4,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,1,2,2,4,0,0,0,0,0,0,5,1,1,1,1,1,1,5
+SRR7725828,healthy,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,0,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,0,1,1,4,0,0,0,1,0,0,4
+SRR7726007,ra non treatment,ra non treatment,ra non treatment,ra non treatment,healthy,ra non treatment,4,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7725783,healthy,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,0,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7726014,ra non treatment,ra non treatment,ra non treatment,ra non treatment,healthy,ra non treatment,4,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7725777,healthy,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,2,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7726000,ra non treatment,healthy,ra non treatment,healthy,healthy,ra non treatment,2,3,3,3,3,3,3,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,4,3,3,4
+SRR7725969,ra non treatment,healthy,ra non treatment,healthy,healthy,ra non treatment,2,4,4,4,3,4,4,4,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,4,3,3,4
+SRR7726005,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,ra non treatment,3,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,1,1,4,1,1,4
+SRR7725975,ra non treatment,healthy,ra non treatment,healthy,healthy,ra non treatment,2,3,0,0,3,0,0,1,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,4,4,3,3
+SRR7725780,healthy,ra non treatment,healthy,ra non treatment,ra non treatment,ra non treatment,1,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7725963,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,5,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7726012,ra non treatment,ra non treatment,ra non treatment,healthy,healthy,ra non treatment,3,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,4,4,3,3,3,3,1
+SRR7725827,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,1,2,2,4,0,0,0,0,0,0,5,1,1,1,1,1,1,5
+SRR7725806,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,4,4,4,4,4,4,5
+SRR7725803,healthy,healthy,healthy,healthy,healthy,healthy,5,3,3,3,0,3,3,4,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,4,3,3,4
+SRR7725799,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,4,4,4,4,4,4,5
+SRR7725804,healthy,healthy,healthy,healthy,ra non treatment,healthy,4,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,1,0,0,4
+SRR7725994,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,5,2,2,2,2,2,2,5,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7726003,ra non treatment,healthy,healthy,healthy,healthy,healthy,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,1,1,4,1,1,4
+SRR7725794,healthy,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,2,1,3,1,1,3,1,3,0,0,0,0,0,0,5,0,2,0,0,0,0,4,2,0,2,2,0,2,3,2,4,2,2,2,2,4
+SRR7725978,ra non treatment,ra non treatment,ra non treatment,ra non treatment,healthy,ra non treatment,4,0,0,0,0,0,0,5,0,0,0,0,0,0,5,1,1,1,2,1,1,4,1,1,1,0,1,1,4,4,4,4,4,4,4,5
+SRR7725830,healthy,healthy,healthy,healthy,ra non treatment,healthy,4,4,0,4,0,4,4,3,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,3,3,4,3,1,1
+SRR7725971,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,ra non treatment,3,0,0,0,0,0,0,5,0,0,0,0,0,0,5,1,1,1,1,1,1,5,1,1,1,0,1,1,4,4,4,4,4,4,4,5
+SRR7725822,healthy,healthy,healthy,ra non treatment,healthy,healthy,4,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,4,4,4,4,1,4,4
+SRR7725796,healthy,healthy,healthy,ra non treatment,ra non treatment,healthy,3,3,3,3,3,3,3,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,3,3,3,3,3,3,5
+SRR7725812,healthy,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,2,0,0,0,0,0,0,5,0,0,0,0,0,0,5,1,1,1,2,1,1,4,1,1,0,0,0,0,1,1,1,1,4,1,1,4
+SRR7725829,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,1,1,1,1,1,5
+SRR7725821,healthy,healthy,healthy,ra non treatment,ra non treatment,healthy,3,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7725793,healthy,healthy,healthy,ra non treatment,ra non treatment,healthy,3,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7725772,healthy,healthy,healthy,healthy,healthy,healthy,5,0,0,0,0,0,0,5,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,1,1,4,1,1,4
+SRR7725991,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,ra non treatment,5,2,2,2,2,2,2,5,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,1,1,1,5,0,0,0,4,0,0,4
+SRR7726019,ra non treatment,ra non treatment,ra non treatment,healthy,healthy,ra non treatment,3,4,0,4,0,0,0,1,0,0,0,0,0,0,5,2,2,2,2,2,2,5,0,0,0,0,0,0,5,1,1,3,3,1,1,3
+SRR7725773,healthy,ra non treatment,healthy,ra non treatment,ra non treatment,healthy,2,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,1,1,1,5,1,1,1,0,1,1,4,0,0,0,4,0,0,4
+SRR7726004,ra non treatment,healthy,ra non treatment,ra non treatment,ra non treatment,ra non treatment,4,2,2,2,0,2,2,4,1,1,1,0,1,1,4,1,1,1,2,1,1,4,1,1,1,0,1,1,4,0,0,0,1,0,0,4
